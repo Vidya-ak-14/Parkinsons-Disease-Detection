@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model=pickle.load(open('E:/machinelearning/trained_model1.sav', 'rb'))
+loaded_model=pickle.load(open('E:/machinelearning/trained_model.sav', 'rb'))
 
 
 def parkinson_prediction(input_data):
