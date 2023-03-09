@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  5 16:53:30 2023
 
-@author: tmsha
+@author: Vidya
 """
 
 import numpy as np
@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model=pickle.load(open('trained_model1.sav', 'rb'))
+loaded_model=pickle.load(open('E:/machinelearning/trained_model1.sav', 'rb'))
 
 
 def parkinson_prediction(input_data):
